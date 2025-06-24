@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2rem;
+}
+.my-header{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.section {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#new-post-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 180px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+}
+
+button.cancel {
+  background-color: #ccc;
+  color: black;
+}
+
+h2, h3, h4 {
+  margin-top: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+#post-list h3:hover {
+  text-decoration: underline;
+}
+
+#post-detail {
+  min-height: 100px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.main-container {
+  display: flex;
+  gap: 20px;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.right-column {
+  flex: 1;
+}
+
+#post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#post-list > div {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+#post-list h3 {
+  margin: 0;
+  color: #007BFF;
+  cursor: pointer;
+}
+
+#post-detail img {
+  width: 100%;
+  max-width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.post-info h2 {
+  margin: 0 0 5px 0;
+}
+
+.post-info p {
+  margin: 0;
+  color: #666;
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Hide Grammarly extension */
+grammarly-extension {
+  display: none !important;
+}
+
+[data-grammarly-shadow-root] {
+  display: none !important;
+}

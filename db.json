@@ -1,0 +1,68 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "First Blog Post",
+      "content": "This is the content of the first blog post.",
+      "author": "John Doe",
+      "image": "http://localhost:3000/images/image1.jpg",
+      "date": "2024-01-15",
+      "tags": [
+        "introduction",
+        "blog"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Third Blog Post",
+      "content": "This is the content of the third blog post.",
+      "author": "Mike Johnson",
+      "image": "http://localhost:3000/images/image3.jpg",
+      "date": "2024-01-25",
+      "tags": [
+        "tech",
+        "coding"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Fourth Blog Post",
+      "content": "This is the content of the fourth blog post.",
+      "author": "Sarah Wilson",
+      "image": "http://localhost:3000/images/image4.jpg",
+      "date": "2024-01-30",
+      "tags": [
+        "design",
+        "ui"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": 1,
+      "author": "Alice",
+      "content": "Great post!",
+      "date": "2024-01-16"
+    },
+    {
+      "id": "2",
+      "postId": 1,
+      "author": "Bob",
+      "content": "Thanks for sharing.",
+      "date": "2024-01-17"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com"
+    }
+  ]
+}
