@@ -5,11 +5,17 @@ A modern blog post management application built with JavaScript, HTML, and CSS. 
 ## Features
 
 View Posts: Display all blog posts in a list format
+
 Post Details: Click on any post to view full details including images
+
 Add New Posts: Create new blog posts with title, author, image URL, and content
+
 Edit Posts: Modify existing posts with an inline editing form
+
 Delete Posts: Remove posts with confirmation dialog
+
 Responsive Design: Mobile-friendly layout that adapts to different screen sizes
+
 Image Support: Display images from URLs with fallback for broken links
 
 ## Setup Instructions
@@ -34,11 +40,15 @@ Image Support: Display images from URLs with fallback for broken links
 
 
 ## API Endpoints
-GET /posts - Retrieve all blog posts
-GET /posts/:id - Retrieve a single blog post
-POST /posts - Create a new blog post
-PATCH /posts/:id - Update an existing blog post
-DELETE /posts/:id - Delete a blog post
+GET /posts - Retrieve all blog posts.
+
+GET /posts/:id - Retrieve a single blog post.
+
+POST /posts - Create a new blog post.
+
+PATCH /posts/:id - Update an existing blog post.
+
+DELETE /posts/:id - Delete a blog post.
 
 
 ## Technologies Used
