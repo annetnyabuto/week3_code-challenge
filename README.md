@@ -41,21 +41,19 @@ PATCH /posts/:id - Update an existing blog post
 DELETE /posts/:id - Delete a blog post
 
 
-Technologies Used
-Frontend: HTML5, CSS3, Vanilla JavaScript
+## Technologies Used
+Frontend: HTML5, CSS3,JavaScript
 Backend: JSON Server (mock REST API)
-Styling: Custom CSS with responsive design
 HTTP Client: Fetch API
-Usage
+
+## Usage
 Viewing Posts: All posts are displayed on the left side. Click any post title to view details.
 Adding Posts: Use the form at the top to create new posts. All fields are required.
 Editing Posts: Click the "Edit" button in post details to modify the post.
 Deleting Posts: Click the "Delete" button and confirm to remove a post.
-Responsive Features
-The application is fully responsive and includes:
 
-Mobile-first design approach
-Flexible layout that stacks on smaller screens
+## Responsive Features
+The application is fully responsive and includes:
 Touch-friendly buttons and form elements
 Optimized images that scale properly
 Browser Support
@@ -63,5 +61,8 @@ Chrome (recommended)
 Firefox
 Safari
 Edge
-License
-This project is for educational purposes as part of a Phase 1 coding challenge.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Copyright (c) 2025 Annet Nyabuto
