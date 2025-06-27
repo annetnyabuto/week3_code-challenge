@@ -1,67 +1,67 @@
 # Post Pulse - Blog Management App
 
-A modern blog post management application that allows users to create, read, update, and delete blog posts.
+A modern blog post management application built with JavaScript, HTML, and CSS. This application allows users to view, create, edit, and delete blog posts with a clean and responsive interface.
 
 ## Features
 
-- **View Posts**: Display all blog posts in a clean list format
-- **Post Details**: Click on any post to view full details with image
-- **Add Posts**: Create new blog posts with title, author, image, and content
-- **Edit Posts**: Update existing post information
-- **Delete Posts**: Remove posts from the system
-- **Responsive Layout**: Two-column layout with posts on left, details on right
+View Posts: Display all blog posts in a list format
+Post Details: Click on any post to view full details including images
+Add New Posts: Create new blog posts with title, author, image URL, and content
+Edit Posts: Modify existing posts with an inline editing form
+Delete Posts: Remove posts with confirmation dialog
+Responsive Design: Mobile-friendly layout that adapts to different screen sizes
+Image Support: Display images from URLs with fallback for broken links
 
 ## Setup Instructions
+1. Install json-server globally:
+   npm install -g json-server@0.17.4
+2. Start the backend API by running:
+   json-server db.json
+   This will start the API server at http://localhost:3000
+3. Start the frontend by running:
+   live-server
+   This will open the application in your browser
 
-1. **Install JSON Server** (if not already installed):
-   ```bash
-   npm install -g json-server
-   ```
 
-2. **Start the API Server**:
-   ```bash
-   json-server --watch db.json --port 3000
-   ```
+## Project Structure
+/
+├──images          
+├── db.json        
+├── index.html     
+├── index.js            
+├── README.md           
+└── Styles.css         
 
-3. **Open the Application**:
-   - Open `index.html` in your web browser
-   - The app will connect to the API at `http://localhost:3000`
-
-## File Structure
-
-```
-├── index.html          # Main HTML file
-├── styles.css          # CSS styling
-├── index..js           # JavaScript functionality
-├── db.json            # JSON database file
-├── images/            # Image assets folder
-│   ├── image1.jpg
-│   ├── image2.jpg
-│   ├── image3.jpg
-│   └── image4.jpg
-└── README.md          # This file
-```
 
 ## API Endpoints
+GET /posts - Retrieve all blog posts
+GET /posts/:id - Retrieve a single blog post
+POST /posts - Create a new blog post
+PATCH /posts/:id - Update an existing blog post
+DELETE /posts/:id - Delete a blog post
 
-- `GET /posts` - Retrieve all posts
-- `GET /posts/:id` - Retrieve single post
-- `POST /posts` - Create new post
-- `PATCH /posts/:id` - Update existing post
-- `DELETE /posts/:id` - Delete post
 
-## Usage
+Technologies Used
+Frontend: HTML5, CSS3, Vanilla JavaScript
+Backend: JSON Server (mock REST API)
+Styling: Custom CSS with responsive design
+HTTP Client: Fetch API
+Usage
+Viewing Posts: All posts are displayed on the left side. Click any post title to view details.
+Adding Posts: Use the form at the top to create new posts. All fields are required.
+Editing Posts: Click the "Edit" button in post details to modify the post.
+Deleting Posts: Click the "Delete" button and confirm to remove a post.
+Responsive Features
+The application is fully responsive and includes:
 
-1. **Viewing Posts**: All posts are listed in the left column
-2. **Post Details**: Click any post title to view details on the right
-3. **Adding Posts**: Fill out the form in the left column and click "Add Post"
-4. **Editing**: Click "Edit" button in post details, modify fields, then "Update Post"
-5. **Deleting**: Click "Delete" button in post details to remove a post
-
-## Technologies Used
-
-- HTML5
-- CSS3 (Flexbox/Grid)
-- Vanilla JavaScript (ES6+)
-- JSON Server (REST API)
-- Fetch API for HTTP requests
+Mobile-first design approach
+Flexible layout that stacks on smaller screens
+Touch-friendly buttons and form elements
+Optimized images that scale properly
+Browser Support
+Chrome (recommended)
+Firefox
+Safari
+Edge
+License
+This project is for educational purposes as part of a Phase 1 coding challenge.

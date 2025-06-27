@@ -5,7 +5,7 @@
       "title": "First Blog Post",
       "content": "This is the content of the first blog post.",
       "author": "John Doe",
-      "image": "http://localhost:3000/images/image1.jpg",
+      "image": "images/image1.jpg",
       "date": "2024-01-15",
       "tags": [
         "introduction",
@@ -17,7 +17,7 @@
       "title": "Third Blog Post",
       "content": "This is the content of the third blog post.",
       "author": "Mike Johnson",
-      "image": "http://localhost:3000/images/image3.jpg",
+      "image": "images/image3.jpg",
       "date": "2024-01-25",
       "tags": [
         "tech",
@@ -29,20 +29,12 @@
       "title": "Fourth Blog Post",
       "content": "This is the content of the fourth blog post.",
       "author": "Sarah Wilson",
-      "image": "http://localhost:3000/images/image4.jpg",
+      "image": "images/image4.jpg",
       "date": "2024-01-30",
       "tags": [
         "design",
         "ui"
       ]
-    },
-    {
-      "id": "6594",
-      "title": "detailed html",
-      "author": "Ambuja",
-      "image": "http://localhost:3000/images/image4.jpg",
-      "content": "ambuja wants to know more about html",
-      "date": "2025-06-26"
     }
   ],
   "comments": [

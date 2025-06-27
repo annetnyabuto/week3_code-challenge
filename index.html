@@ -7,19 +7,21 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Header section-->
   <div class="my-header">
     <h1>Post Pulse</h1>
     <p>Modern blog post management</p>
   </div>
-
-
+  <!--Divides content into two columns -->
   <div class="main-container">
+    <!-- blog list and new post form -->
     <div class="left-column">
+    <!-- blog posts list section -->
       <div class="section">
         <h2>Blog Posts</h2>
         <div id="post-list"></div>
       </div>
-      
+      <!-- Adding new post form section-->
       <div class="section">
         <h2>Add New Post</h2>
         <form id="new-post-form">
@@ -29,6 +31,7 @@
             <input type="text" name="image" id="post-image" placeholder="Insert image url..." required>
             <textarea name="content" id="post-content" placeholder="Write your post content..." required></textarea>
           </div>
+          <!-- buttons for cancelling or submitting new post-->
           <div class="button-group">
             <button type="submit">+ Add Post</button>
             <button type="button" class="cancel">Cancel</button>
@@ -36,7 +39,7 @@
         </form>
       </div>
     </div>
-
+    <!-- post details and edit form-->
     <div class="right-column">
       <div class="section">
         <h2>Post Details</h2>
@@ -44,7 +47,7 @@
           <p>Select a post to view details</p>
         </div>
       </div>
-
+      <!-- edit post form section -->
       <div class="section hidden" id="edit-post-form">
         <h2>Edit Post</h2>
         <form>
@@ -54,6 +57,7 @@
             <textarea id="edit-content" placeholder="Content" required></textarea>
           </div>
           <div class="button-group">
+            <!-- update and cancel buttons for the edit form -->
             <button type="submit">Update Post</button>
             <button type="button" id="cancel-edit" class="cancel">Cancel</button>
           </div>
