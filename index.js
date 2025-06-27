@@ -14,7 +14,7 @@ function displayPosts() {
             const postList = document.getElementById('post-list');
             postList.innerHTML = '';
             
-            // Advanced Deliverable: Show first post details on load
+            //Show first post details on load
             if (posts.length > 0) {
                 handlePostClick(posts[0].id);
             }
@@ -33,7 +33,7 @@ function displayPosts() {
         .catch(error => console.error('Error fetching posts:', error));
 }
 
-// Core Deliverable: Handle post click to show details
+//Handle post click to show details
 function handlePostClick(postId) {
     fetch(`http://localhost:3000/posts/${postId}`)
         .then(response => response.json())
@@ -54,14 +54,14 @@ function handlePostClick(postId) {
                 <p>${post.content}</p>
             `;
             
-            // Advanced Deliverable: Add edit and delete functionality
+            //Add edit and delete functionality
             document.getElementById('edit-btn').addEventListener('click', () => showEditForm(post));
             document.getElementById('delete-btn').addEventListener('click', () => deletePost(post.id));
         })
         .catch(error => console.error('Error fetching post:', error));
 }
 
-// Core Deliverable: Add new post listener
+//Add new post listener
 function addNewPostListener() {
     const form = document.getElementById('new-post-form');
     form.addEventListener('submit', (e) => {
@@ -75,7 +75,7 @@ function addNewPostListener() {
             date: new Date().toISOString().split('T')[0]
         };
         
-        // Extra Advanced Deliverable: Persist to backend
+        //Persist to backend
         fetch('http://localhost:3000/posts', {
             method: 'POST',
             headers: {
@@ -85,7 +85,7 @@ function addNewPostListener() {
         })
         .then(response => response.json())
         .then(post => {
-            displayPosts(); // Refresh the list
+            displayPosts(); // it Refresh the list
             form.reset();
         })
         .catch(error => console.error('Error creating post:', error));
@@ -100,7 +100,7 @@ function addNewPostListener() {
     }
 }
 
-// Advanced Deliverable: Show edit form
+//Show edit form
 function showEditForm(post) {
     const postDetail = document.getElementById('post-detail');
     postDetail.innerHTML = `

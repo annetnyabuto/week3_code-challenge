@@ -1,40 +1,28 @@
 {
   "posts": [
     {
-      "id": "1",
-      "title": "First Blog Post",
-      "content": "This is the content of the first blog post.",
+      "id": "8210",
+      "title": "Basics of html ",
       "author": "John Doe",
       "image": "images/image1.jpg",
-      "date": "2024-01-15",
-      "tags": [
-        "introduction",
-        "blog"
-      ]
+      "content": "What is HTML?\nHTML stands for Hyper Text Markup Language\nHTML is the standard markup language for creating Web pages\nHTML describes the structure of a Web page\nHTML consists of a series of elements\nHTML elements tell the browser how to display the content\nHTML elements label pieces of content such as \"this is a heading\", \"this is a paragraph\", \"this is a link\", etc.",
+      "date": "2025-06-27"
     },
     {
-      "id": "3",
-      "title": "Third Blog Post",
-      "content": "This is the content of the third blog post.",
-      "author": "Mike Johnson",
-      "image": "images/image3.jpg",
-      "date": "2024-01-25",
-      "tags": [
-        "tech",
-        "coding"
-      ]
-    },
-    {
-      "id": "4",
-      "title": "Fourth Blog Post",
-      "content": "This is the content of the fourth blog post.",
-      "author": "Sarah Wilson",
+      "id": "7085",
+      "title": "Html Elements",
+      "author": "ann",
       "image": "images/image4.jpg",
-      "date": "2024-01-30",
-      "tags": [
-        "design",
-        "ui"
-      ]
+      "content": "An HTML element is defined by a start tag, some content, and an end tag:\n\n<tagname> Content goes here... </tagname>\nThe HTML element is everything from the start tag to the end tag:\n\n<h1>My First Heading</h1>\n<p>My first paragraph.</p>",
+      "date": "2025-06-27"
+    },
+    {
+      "id": "4ef4",
+      "title": "Basics of CSS ",
+      "author": "ann",
+      "image": "images/image3.jpg",
+      "content": "What is CSS?\nCSS stands for Cascading Style Sheets\nCSS describes how HTML elements are to be displayed on screen, paper, or in other media\nCSS saves a lot of work. It can control the layout of multiple web pages all at once\nExternal stylesheets are stored in CSS files\n",
+      "date": "2025-06-27"
     }
   ],
   "comments": [
