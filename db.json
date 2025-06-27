@@ -35,6 +35,14 @@
         "design",
         "ui"
       ]
+    },
+    {
+      "id": "6594",
+      "title": "detailed html",
+      "author": "Ambuja",
+      "image": "http://localhost:3000/images/image4.jpg",
+      "content": "ambuja wants to know more about html",
+      "date": "2025-06-26"
     }
   ],
   "comments": [

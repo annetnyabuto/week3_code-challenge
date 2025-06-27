@@ -149,12 +149,3 @@ h2, h3, h4 {
   display: flex;
   gap: 10px;
 }
-
-/* Hide Grammarly extension */
-grammarly-extension {
-  display: none !important;
-}
-
-[data-grammarly-shadow-root] {
-  display: none !important;
-}
